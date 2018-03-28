@@ -1,0 +1,16 @@
+[Unit]
+Description=Simple iperf3 scheduller
+#After=rsyslog.service
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/opt/projects/clm/meter_client
+ExecStart=/usr/bin/python3 -u iperf3_sched.py
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
+

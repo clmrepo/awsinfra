@@ -1,0 +1,16 @@
+
+URL_CC = 'https://165.227.72.199'
+KEY_PATH = './ssl/client.key'
+CERT_PATH = './ssl/client.crt'
+ATTRIBUTES_FILE = '../attributes'
+EXEC_DELAY_MIN = 15
+EXEC_DELAY_MAX = 30
+FAILS_ALLOWED = 600
+
+ADDR = '0.0.0.0'
+PORT = '9999'
+
+#EXEC_DELAY = 60
+REGISTRATION_INTERVAL = 60
+REGISTRATION_LIMIT = 300
+
